@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+                background: url(https://img.freepik.com/free-photo/workplace-office-with-laptop-coffee-dark-room-night_169016-47422.jpg?semt=ais_hybrid&w=740);
+                /* background-image: url(https://media.istockphoto.com/id/537331500/photo/programming-code-abstract-technology-background-of-software-deve.jpg?s=612x612&w=0&k=20&c=jlYes8ZfnCmD0lLn-vKvzQoKXrWaEcVypHnB5MuO-g8=); */
+                
+                background-repeat: no-repeat;
+                background-size: cover;
+        }
+        .a{
+            border: 3px solid black;
+            box-shadow:  0 0 10px aqua;
+            width: 400px;
+            height: 600px;
+            margin-top: 60px;
+            border-radius: 10px;
+        }
+        .a h2{
+            text-shadow: 0 0 4px palevioletred;
+            background: aqua;
+            height: 30px;
+        }
+        .a label{
+             text-shadow: 0 0 4px palevioletred;
+            text-transform: capitalize;
+            color: thistle;
+            margin-right: 275px;
+        }
+        .a input{
+            margin-top: 7px;
+            width: 350px;
+            height:30px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 4px palevioletred;
+            background: paleturquoise;
+        }
+        .a button{
+            box-shadow: 1px 1px 4px palevioletred;
+            height: 30px;
+            width: 90px;
+            margin-top: 15px;
+            background: paleturquoise;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <div class="a">
+        <h2>Student Registration</h2>
+        <form>
+            <label>First name :</label>
+            <input type="text" name="a" placeholder="Enter First Name" required>
+            <br><br>
+            <label>last name :</label>
+             <input type="text" name="b" placeholder="Enter Last Name" required>
+             <br><br>
+             <label style="margin-left: 20px;">email address :</label>
+             <input type="email" name="c" placeholder="Enter Email Address" required>
+             <br><br>
+             <label>contact number :</label>
+             <input type="number" name="d" placeholder="Enter Number" required>
+             <br><br>
+             <label>password :</label>
+             <input type="password" name="e" placeholder="Enter Password" required>
+             <br><br>
+             <label style="margin-right: 230px;">confirm password :</label>
+            <input type="password" name="e" placeholder="Enter Password  Again" required>
+            <br><br>
+            <button>Register</button>
+        </form>
+    </div>
+    </center>
+</body>
+</html>
