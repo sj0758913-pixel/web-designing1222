@@ -366,7 +366,8 @@ equals.onclick = () => {
     }else
     if (inp.innerHTML.includes("/")) {
         arr = inp.innerHTML.split("/");
-        res = Number(arr[0]) / Number(arr[1]);
+        newRes = Number(arr[0]) / Number(arr[1]);
+        res = newRes.toFixed(5);
     } else if (inp.innerHTML.includes("%")) {
         arr = inp.innerHTML.split("%");
         res = Number(arr[0]) % Number(arr[1]);
